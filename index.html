@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPS da Química Emocional com IA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#8a2be2',
+              secondary: '#ff6b6b',
+              dark: '#2d3047',
+              light: '#f8f9fa',
+              success: '#4ecdc4',
+              warning: '#ffe66d',
+              'brand-bg-start': '#1a1a2e',
+              'brand-bg-end': '#16213e',
+              'brand-card': 'rgba(45, 48, 71, 0.7)',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-gradient-to-br from-brand-bg-start to-brand-bg-end text-light font-sans">
+    <div id="root"></div>
+  </body>
+</html>
